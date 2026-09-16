@@ -27,6 +27,6 @@
 
 // ↓ 여기부터 작성
 
-import randomInt from "random-int";
-console.log(randomInt(5));
-console.log(randomInt(2, 10));
+import koreanUnpacker from "korean-unpacker";
+console.log(koreanUnpacker.unpack('안녕'));
+console.log(koreanUnpacker.unpack('까치'));
