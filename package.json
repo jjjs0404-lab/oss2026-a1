@@ -7,5 +7,10 @@
   "scripts": {
     "start": "node main.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "korean-unpacker": "^1.0.3",
+    "nanoid": "^6.0.1",
+    "random-int": "^3.1.0"
+  }
 }
